@@ -1,0 +1,31 @@
+{
+  "subgroup": "highIAT",
+  "N": 461,
+  "n_edges": 22791,
+  "outer_cv": "loocv",
+  "n_outer_training_folds": 461,
+  "n_permutations": 5000,
+  "batch_size": 200,
+  "n_jobs": 20,
+  "cache_n_jobs": 6,
+  "parallel_backend": "threading",
+  "per_job": 1,
+  "p_thresh": 0.01,
+  "permutation": "site-wise permutation of fold-specific covariate-residualized IAT; not Freedman-Lane",
+  "shuffle_within_site": true,
+  "alpha_source": "original nested-LOOCV selected_param_records",
+  "alpha_signature": "n461_4d92fba0c22b",
+  "alpha_source_cv_results": "/Users/fmri24/Desktop/YiZhang/CPM_nestedCV_LOOCV/CPM_nestedCV_highIAT_cv_results.pkl",
+  "observed_source": "haufe_edge_tables[subgroup]['haufe_corr_selected_mean_all_folds']",
+  "observed_elapsed_min": 1.7130374908447264e-05,
+  "observed_mean_total_selected_edges": 318.21908893709326,
+  "site_dummy_columns": [
+    "ScannerSite_CUNY",
+    "ScannerSite_RU"
+  ],
+  "site_counts": {
+    "CBIC": 249,
+    "RU": 149,
+    "CUNY": 63
+  }
+}

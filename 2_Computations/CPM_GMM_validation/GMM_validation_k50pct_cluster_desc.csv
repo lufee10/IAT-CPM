@@ -1,0 +1,3 @@
+cluster,N,negative_n,positive_n,positive_rate,interpretation
+0,609,378,231,0.3793103448275862,negative-like
+1,505,275,230,0.45544554455445546,positive-like

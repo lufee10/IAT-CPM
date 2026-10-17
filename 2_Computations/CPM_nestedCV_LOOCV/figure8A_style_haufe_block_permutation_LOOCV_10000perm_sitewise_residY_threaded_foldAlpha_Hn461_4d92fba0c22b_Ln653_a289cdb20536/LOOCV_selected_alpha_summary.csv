@@ -1,0 +1,3 @@
+subgroup,cv_path,n_alpha_values,min,q25,raw_median,q75,max,mode,mode_count,n_unique,alpha_sequence_signature
+highIAT,/Users/fmri24/Desktop/YiZhang/CPM_nestedCV_LOOCV/CPM_nestedCV_highIAT_cv_results.pkl,461,0.01,1.384886371393873,32.745491628777316,100.0,100.0,100.0,163,80,n461_4d92fba0c22b
+lowIAT,/Users/fmri24/Desktop/YiZhang/CPM_nestedCV_LOOCV/CPM_nestedCV_lowIAT_cv_results.pkl,653,0.01,0.13530477745798075,29.836472402833405,75.64633275546291,100.0,0.01,163,49,n653_a289cdb20536

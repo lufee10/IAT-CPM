@@ -1,0 +1,34 @@
+{
+  "subgroup": "highIAT",
+  "N": 461,
+  "n_edges": 22791,
+  "outer_cv": "LOOCV",
+  "n_outer_folds": 461,
+  "n_permutations": 5000,
+  "permutation": "global Freedman-Lane residual shuffle",
+  "shuffle_within_site": false,
+  "feature_selection": "CPM two-sided p<0.01",
+  "prediction_model": "Ridge",
+  "fast_closed_form_ridge": true,
+  "ridge_alpha": "original nested-LOOCV fold-specific alpha",
+  "haufe_statistic": "Corr(selected FC, Ridge training fitted y)",
+  "module_statistic": "signed selected-space Haufe correlation summed within block, divided by all possible FCs in block, averaged across LOOCV folds",
+  "n_jobs": 20,
+  "cache_n_jobs": 8,
+  "cache_elapsed_min": 0.31086283127466835,
+  "observed_elapsed_min": 0.18513071934382122,
+  "rough_estimated_permutation_hours": 0.7713779972659218,
+  "observed_mean_selected_edges": 318.21908893709326,
+  "observed_vs_section3_block_corr": 1.0,
+  "observed_vs_section3_max_abs_diff": 1.449991168800402e-12,
+  "alpha_signature": "4d92fba0c22b",
+  "site_dummy_columns": [
+    "ScannerSite_CUNY",
+    "ScannerSite_RU"
+  ],
+  "site_counts": {
+    "CBIC": 249,
+    "RU": 149,
+    "CUNY": 63
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "highIAT": {
+    "subgroup": "highIAT",
+    "cv_path": "/Users/fmri24/Desktop/YiZhang/CPM_nestedCV_LOOCV/CPM_nestedCV_highIAT_cv_results.pkl",
+    "selected_param_records_type": "<class 'list'>",
+    "expected_outer_folds": 461,
+    "alpha_extraction_version": "best_params_ridge_alpha_v1",
+    "method": "median",
+    "n_alpha_values": 461,
+    "min": 0.01,
+    "q25": 1.384886371393873,
+    "raw_median": 32.745491628777316,
+    "q75": 100.0,
+    "max": 100.0,
+    "mode": 100.0,
+    "mode_count": 163,
+    "n_unique": 80,
+    "chosen_alpha": 32.745491628777316,
+    "nearest_original_grid_alpha": 32.745491628777316,
+    "chosen_is_on_original_grid": true
+  },
+  "lowIAT": {
+    "subgroup": "lowIAT",
+    "cv_path": "/Users/fmri24/Desktop/YiZhang/CPM_nestedCV_LOOCV/CPM_nestedCV_lowIAT_cv_results.pkl",
+    "selected_param_records_type": "<class 'list'>",
+    "expected_outer_folds": 653,
+    "alpha_extraction_version": "best_params_ridge_alpha_v1",
+    "method": "median",
+    "n_alpha_values": 653,
+    "min": 0.01,
+    "q25": 0.13530477745798075,
+    "raw_median": 29.836472402833405,
+    "q75": 75.64633275546291,
+    "max": 100.0,
+    "mode": 0.01,
+    "mode_count": 163,
+    "n_unique": 49,
+    "chosen_alpha": 29.836472402833405,
+    "nearest_original_grid_alpha": 29.836472402833405,
+    "chosen_is_on_original_grid": true
+  }
+}

@@ -1,0 +1,3 @@
+subgroup,cv_path,selected_param_records_type,expected_outer_folds,method,n_alpha_values,min,q25,raw_median,q75,max,mode,mode_count,n_unique,chosen_alpha,nearest_original_grid_alpha,chosen_is_on_original_grid
+highIAT,/Users/fmri24/Desktop/YiZhang/CPM_nestedCV_LOOCV/CPM_nestedCV_highIAT_cv_results.pkl,<class 'list'>,461,median,92661,0.01,0.10235310218990264,1.0476157527896652,10.722672220103243,100.0,100.0,1085,100,1.0476157527896652,1.0476157527896652,True
+lowIAT,/Users/fmri24/Desktop/YiZhang/CPM_nestedCV_LOOCV/CPM_nestedCV_lowIAT_cv_results.pkl,<class 'list'>,653,median,131253,0.01,0.10235310218990264,1.0476157527896652,10.722672220103243,100.0,0.01,1469,100,1.0476157527896652,1.0476157527896652,True

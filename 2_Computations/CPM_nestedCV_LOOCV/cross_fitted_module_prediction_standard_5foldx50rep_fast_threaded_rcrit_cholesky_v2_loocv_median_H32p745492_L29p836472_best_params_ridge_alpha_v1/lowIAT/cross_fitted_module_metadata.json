@@ -1,0 +1,43 @@
+{
+  "subgroup": "lowIAT",
+  "N": 653,
+  "n_edges": 22791,
+  "outer_splits": 5,
+  "outer_repeats": 50,
+  "n_outer_fits_per_target": 250,
+  "n_permutations": 10000,
+  "batch_size": 50,
+  "n_jobs": 16,
+  "cache_n_jobs": 4,
+  "parallel_backend": "threading",
+  "engine_version": "fast_threaded_rcrit_cholesky_v2",
+  "p_thresh": 0.01,
+  "score_mode": "sign_mean",
+  "standardize_module_score": true,
+  "shuffle_within_site": false,
+  "permutation": "global Freedman-Lane residual shuffle",
+  "fixed_alpha": 29.836472402833405,
+  "alpha_source": "original nested-LOOCV selected_param_records",
+  "alpha_summary_method": "median",
+  "alpha_source_cv_results": "/Users/fmri24/Desktop/YiZhang/CPM_nestedCV_LOOCV/CPM_nestedCV_lowIAT_cv_results.pkl",
+  "alpha_n_values": 653,
+  "alpha_expected_outer_folds": 653,
+  "alpha_raw_median": 29.836472402833405,
+  "alpha_mode": 0.01,
+  "alpha_mode_count": 163,
+  "alpha_chosen": 29.836472402833405,
+  "alpha_signature": "H32p745492_L29p836472",
+  "observed_mean_total_selected_edges": 103.836,
+  "observed_elapsed_min": 0.08155645132064819,
+  "site_dummy_columns": [
+    "ScannerSite_CUNY",
+    "ScannerSite_RU",
+    "ScannerSite_RU_ex"
+  ],
+  "site_counts": {
+    "CBIC": 326,
+    "RU": 242,
+    "CUNY": 83,
+    "RU_ex": 2
+  }
+}
