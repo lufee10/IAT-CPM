@@ -1,0 +1,13 @@
+{
+  "source_directory": "/Users/yiling/Documents/Codex/HBN_Cdx/tmpt/CPM/CPM_nestedCV_LOOCV",
+  "n_permutations": 10000,
+  "permutation_indices": "0-9999",
+  "mapping": "selected-space Cov(X, fitted_y) / Var(fitted_y)",
+  "aggregation": "zero-fill nonselected edges; sum / possible edges per block; mean across folds",
+  "within_group_test": "two-sided absolute statistic; sitewise residual IAT permutations",
+  "ridge_penalty": "original fold-specific nested-CV alpha held fixed",
+  "between_range_null": "joint absence of within-range FC-IAT association; not equality of patterns",
+  "right_tail": "exploratory high-minus-low > 0",
+  "fdr": "BH across 36 blocks separately for each group/mapping/tail as applicable",
+  "engine": "Scripts/compare_classic_haufe_permutation.py"
+}
