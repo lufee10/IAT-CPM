@@ -1,0 +1,542 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20261023 13:45:49.700450 10399680 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20261023 13:45:49.701771 10399680 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20261023 13:45:49.701941 10399680 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+W20261023 13:45:49.702072 10399680 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.sse4_2'. Detail: [errno 1] Operation not permitted
+W20261023 13:45:49.702199 10399680 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx1_0'. Detail: [errno 1] Operation not permitted
+W20261023 13:45:49.702332 10399680 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx2_0'. Detail: [errno 1] Operation not permitted
+W20261023 13:45:49.702481 10399680 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.bmi1'. Detail: [errno 1] Operation not permitted
+W20261023 13:45:49.702620 10399680 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.bmi2'. Detail: [errno 1] Operation not permitted
+W20261023 13:45:49.702755 10399680 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512f'. Detail: [errno 1] Operation not permitted
+W20261023 13:45:49.702895 10399680 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512cd'. Detail: [errno 1] Operation not permitted
+W20261023 13:45:49.703037 10399680 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512dq'. Detail: [errno 1] Operation not permitted
+W20261023 13:45:49.703173 10399680 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512bw'. Detail: [errno 1] Operation not permitted
+W20261023 13:45:49.703308 10399680 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512vl'. Detail: [errno 1] Operation not permitted
+PID 57431 permutations 10000 batch 1000
+highIAT n= 461 input ready 0.5 s
+highIAT_folds_00000_01000 completed fold 150
+highIAT_folds_00000_01000 completed fold 175
+highIAT_folds_00000_01000 completed fold 200
+highIAT_folds_00000_01000 completed fold 225
+highIAT_folds_00000_01000 completed fold 250
+highIAT_folds_00000_01000 completed fold 275
+highIAT_folds_00000_01000 completed fold 300
+highIAT_folds_00000_01000 completed fold 325
+highIAT_folds_00000_01000 completed fold 350
+highIAT_folds_00000_01000 completed fold 375
+highIAT_folds_00000_01000 completed fold 400
+highIAT_folds_00000_01000 completed fold 425
+highIAT_folds_00000_01000 completed fold 450
+highIAT 0 1000 seconds 924.2 corr cache max error 2.5392400265777937e-09
+highIAT_folds_01000_02000 completed fold 0
+highIAT_folds_01000_02000 completed fold 25
+highIAT_folds_01000_02000 completed fold 50
+highIAT_folds_01000_02000 completed fold 75
+highIAT_folds_01000_02000 completed fold 100
+highIAT_folds_01000_02000 completed fold 125
+highIAT_folds_01000_02000 completed fold 150
+highIAT_folds_01000_02000 completed fold 175
+highIAT_folds_01000_02000 completed fold 200
+highIAT_folds_01000_02000 completed fold 225
+highIAT_folds_01000_02000 completed fold 250
+highIAT_folds_01000_02000 completed fold 275
+highIAT_folds_01000_02000 completed fold 300
+highIAT_folds_01000_02000 completed fold 325
+highIAT_folds_01000_02000 completed fold 350
+highIAT_folds_01000_02000 completed fold 375
+highIAT_folds_01000_02000 completed fold 400
+highIAT_folds_01000_02000 completed fold 425
+highIAT_folds_01000_02000 completed fold 450
+highIAT 1000 2000 seconds 1785.3 corr cache max error 2.8687335978938577e-09
+highIAT_folds_02000_03000 completed fold 0
+highIAT_folds_02000_03000 completed fold 25
+highIAT_folds_02000_03000 completed fold 50
+highIAT_folds_02000_03000 completed fold 75
+highIAT_folds_02000_03000 completed fold 100
+highIAT_folds_02000_03000 completed fold 125
+highIAT_folds_02000_03000 completed fold 150
+highIAT_folds_02000_03000 completed fold 175
+highIAT_folds_02000_03000 completed fold 200
+highIAT_folds_02000_03000 completed fold 225
+highIAT_folds_02000_03000 completed fold 250
+highIAT_folds_02000_03000 completed fold 275
+highIAT_folds_02000_03000 completed fold 300
+highIAT_folds_02000_03000 completed fold 325
+highIAT_folds_02000_03000 completed fold 350
+highIAT_folds_02000_03000 completed fold 375
+highIAT_folds_02000_03000 completed fold 400
+highIAT_folds_02000_03000 completed fold 425
+highIAT_folds_02000_03000 completed fold 450
+highIAT 2000 3000 seconds 1097.7 corr cache max error 3.220096703171471e-09
+highIAT_folds_03000_04000 completed fold 0
+highIAT_folds_03000_04000 completed fold 25
+highIAT_folds_03000_04000 completed fold 50
+highIAT_folds_03000_04000 completed fold 75
+highIAT_folds_03000_04000 completed fold 100
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20261023 15:02:50.805486 10502854 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20261023 15:02:50.806726 10502854 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20261023 15:02:50.806871 10502854 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+W20261023 15:02:50.807001 10502854 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.sse4_2'. Detail: [errno 1] Operation not permitted
+W20261023 15:02:50.807126 10502854 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx1_0'. Detail: [errno 1] Operation not permitted
+W20261023 15:02:50.807251 10502854 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx2_0'. Detail: [errno 1] Operation not permitted
+W20261023 15:02:50.807375 10502854 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.bmi1'. Detail: [errno 1] Operation not permitted
+W20261023 15:02:50.807499 10502854 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.bmi2'. Detail: [errno 1] Operation not permitted
+W20261023 15:02:50.807623 10502854 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512f'. Detail: [errno 1] Operation not permitted
+W20261023 15:02:50.807752 10502854 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512cd'. Detail: [errno 1] Operation not permitted
+W20261023 15:02:50.807889 10502854 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512dq'. Detail: [errno 1] Operation not permitted
+W20261023 15:02:50.808020 10502854 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512bw'. Detail: [errno 1] Operation not permitted
+W20261023 15:02:50.808151 10502854 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512vl'. Detail: [errno 1] Operation not permitted
+PID 64780 permutations 10000 batch 1000
+highIAT n= 461 input ready 0.5 s
+highIAT_folds_03000_04000 completed fold 125
+highIAT_folds_03000_04000 completed fold 150
+highIAT_folds_03000_04000 completed fold 175
+highIAT_folds_03000_04000 completed fold 200
+highIAT_folds_03000_04000 completed fold 225
+highIAT_folds_03000_04000 completed fold 250
+highIAT_folds_03000_04000 completed fold 275
+highIAT_folds_03000_04000 completed fold 300
+highIAT_folds_03000_04000 completed fold 325
+highIAT_folds_03000_04000 completed fold 350
+highIAT_folds_03000_04000 completed fold 375
+highIAT_folds_03000_04000 completed fold 400
+highIAT_folds_03000_04000 completed fold 425
+highIAT_folds_03000_04000 completed fold 450
+highIAT 3000 4000 seconds 864.7 corr cache max error 3.5955191601821923e-09
+highIAT_folds_04000_05000 completed fold 0
+highIAT_folds_04000_05000 completed fold 25
+highIAT_folds_04000_05000 completed fold 50
+highIAT_folds_04000_05000 completed fold 75
+highIAT_folds_04000_05000 completed fold 100
+highIAT_folds_04000_05000 completed fold 125
+highIAT_folds_04000_05000 completed fold 150
+highIAT_folds_04000_05000 completed fold 175
+highIAT_folds_04000_05000 completed fold 200
+highIAT_folds_04000_05000 completed fold 225
+highIAT_folds_04000_05000 completed fold 250
+highIAT_folds_04000_05000 completed fold 275
+highIAT_folds_04000_05000 completed fold 300
+highIAT_folds_04000_05000 completed fold 325
+highIAT_folds_04000_05000 completed fold 350
+highIAT_folds_04000_05000 completed fold 375
+highIAT_folds_04000_05000 completed fold 400
+highIAT_folds_04000_05000 completed fold 425
+highIAT_folds_04000_05000 completed fold 450
+highIAT 4000 5000 seconds 1118.1 corr cache max error 2.7330275126358217e-09
+highIAT_folds_05000_06000 completed fold 0
+highIAT_folds_05000_06000 completed fold 25
+highIAT_folds_05000_06000 completed fold 50
+highIAT_folds_05000_06000 completed fold 75
+highIAT_folds_05000_06000 completed fold 100
+highIAT_folds_05000_06000 completed fold 125
+highIAT_folds_05000_06000 completed fold 150
+highIAT_folds_05000_06000 completed fold 175
+highIAT_folds_05000_06000 completed fold 200
+highIAT_folds_05000_06000 completed fold 225
+highIAT_folds_05000_06000 completed fold 250
+highIAT_folds_05000_06000 completed fold 275
+highIAT_folds_05000_06000 completed fold 300
+highIAT_folds_05000_06000 completed fold 325
+highIAT_folds_05000_06000 completed fold 350
+highIAT_folds_05000_06000 completed fold 375
+highIAT_folds_05000_06000 completed fold 400
+highIAT_folds_05000_06000 completed fold 425
+highIAT_folds_05000_06000 completed fold 450
+highIAT 5000 6000 seconds 1073.7 corr cache max error 3.351173533117091e-09
+highIAT_folds_06000_07000 completed fold 0
+highIAT_folds_06000_07000 completed fold 25
+highIAT_folds_06000_07000 completed fold 50
+highIAT_folds_06000_07000 completed fold 75
+highIAT_folds_06000_07000 completed fold 100
+highIAT_folds_06000_07000 completed fold 125
+highIAT_folds_06000_07000 completed fold 150
+highIAT_folds_06000_07000 completed fold 175
+highIAT_folds_06000_07000 completed fold 200
+highIAT_folds_06000_07000 completed fold 225
+highIAT_folds_06000_07000 completed fold 250
+highIAT_folds_06000_07000 completed fold 275
+highIAT_folds_06000_07000 completed fold 300
+highIAT_folds_06000_07000 completed fold 325
+highIAT_folds_06000_07000 completed fold 350
+highIAT_folds_06000_07000 completed fold 375
+highIAT_folds_06000_07000 completed fold 400
+highIAT_folds_06000_07000 completed fold 425
+highIAT_folds_06000_07000 completed fold 450
+highIAT 6000 7000 seconds 1298.8 corr cache max error 3.467117676292375e-09
+highIAT_folds_07000_08000 completed fold 0
+highIAT_folds_07000_08000 completed fold 25
+highIAT_folds_07000_08000 completed fold 50
+highIAT_folds_07000_08000 completed fold 75
+highIAT_folds_07000_08000 completed fold 100
+highIAT_folds_07000_08000 completed fold 125
+highIAT_folds_07000_08000 completed fold 150
+highIAT_folds_07000_08000 completed fold 175
+highIAT_folds_07000_08000 completed fold 200
+highIAT_folds_07000_08000 completed fold 225
+highIAT_folds_07000_08000 completed fold 250
+highIAT_folds_07000_08000 completed fold 275
+highIAT_folds_07000_08000 completed fold 300
+highIAT_folds_07000_08000 completed fold 325
+highIAT_folds_07000_08000 completed fold 350
+highIAT_folds_07000_08000 completed fold 375
+highIAT_folds_07000_08000 completed fold 400
+highIAT_folds_07000_08000 completed fold 425
+highIAT_folds_07000_08000 completed fold 450
+highIAT 7000 8000 seconds 1216.7 corr cache max error 3.3662055504146693e-09
+highIAT_folds_08000_09000 completed fold 0
+highIAT_folds_08000_09000 completed fold 25
+highIAT_folds_08000_09000 completed fold 50
+highIAT_folds_08000_09000 completed fold 75
+highIAT_folds_08000_09000 completed fold 100
+highIAT_folds_08000_09000 completed fold 125
+highIAT_folds_08000_09000 completed fold 150
+highIAT_folds_08000_09000 completed fold 175
+highIAT_folds_08000_09000 completed fold 200
+highIAT_folds_08000_09000 completed fold 225
+highIAT_folds_08000_09000 completed fold 250
+highIAT_folds_08000_09000 completed fold 275
+highIAT_folds_08000_09000 completed fold 300
+highIAT_folds_08000_09000 completed fold 325
+highIAT_folds_08000_09000 completed fold 350
+highIAT_folds_08000_09000 completed fold 375
+highIAT_folds_08000_09000 completed fold 400
+highIAT_folds_08000_09000 completed fold 425
+highIAT_folds_08000_09000 completed fold 450
+highIAT 8000 9000 seconds 1253.7 corr cache max error 3.3500022339483237e-09
+highIAT_folds_09000_10000 completed fold 0
+highIAT_folds_09000_10000 completed fold 25
+highIAT_folds_09000_10000 completed fold 50
+highIAT_folds_09000_10000 completed fold 75
+highIAT_folds_09000_10000 completed fold 100
+highIAT_folds_09000_10000 completed fold 125
+highIAT_folds_09000_10000 completed fold 150
+highIAT_folds_09000_10000 completed fold 175
+highIAT_folds_09000_10000 completed fold 200
+highIAT_folds_09000_10000 completed fold 225
+highIAT_folds_09000_10000 completed fold 250
+highIAT_folds_09000_10000 completed fold 275
+highIAT_folds_09000_10000 completed fold 300
+highIAT_folds_09000_10000 completed fold 325
+highIAT_folds_09000_10000 completed fold 350
+highIAT_folds_09000_10000 completed fold 375
+highIAT_folds_09000_10000 completed fold 400
+highIAT_folds_09000_10000 completed fold 425
+highIAT_folds_09000_10000 completed fold 450
+highIAT 9000 10000 seconds 2687.7 corr cache max error 1.8480990349178938e-09
+  group       mapping network_block    value  p_two_sided    q_fdr  n_permutations  original_corr_p  original_corr_q
+highIAT   correlation       DAN-FPN 0.013506     0.020798 0.575942           10000         0.020798         0.575942
+highIAT   correlation       VAN-DMN 0.009389     0.047695 0.575942           10000         0.047695         0.575942
+highIAT classic_slope       DAN-FPN 0.002838     0.014999 0.539946           10000         0.020798         0.575942
+highIAT classic_slope       DAN-DMN 0.001906     0.047895 0.574743           10000         0.051395         0.575942
+highIAT classic_slope       VAN-DMN 0.001971     0.045895 0.574743           10000         0.047695         0.575942
+lowIAT n= 653 input ready 7.5 s
+lowIAT_folds_00000_01000 completed fold 0
+lowIAT_folds_00000_01000 completed fold 25
+lowIAT_folds_00000_01000 completed fold 50
+lowIAT_folds_00000_01000 completed fold 75
+lowIAT_folds_00000_01000 completed fold 100
+lowIAT_folds_00000_01000 completed fold 125
+lowIAT_folds_00000_01000 completed fold 150
+lowIAT_folds_00000_01000 completed fold 175
+lowIAT_folds_00000_01000 completed fold 200
+lowIAT_folds_00000_01000 completed fold 225
+lowIAT_folds_00000_01000 completed fold 250
+lowIAT_folds_00000_01000 completed fold 275
+lowIAT_folds_00000_01000 completed fold 300
+lowIAT_folds_00000_01000 completed fold 325
+lowIAT_folds_00000_01000 completed fold 350
+lowIAT_folds_00000_01000 completed fold 375
+lowIAT_folds_00000_01000 completed fold 400
+lowIAT_folds_00000_01000 completed fold 425
+lowIAT_folds_00000_01000 completed fold 450
+lowIAT_folds_00000_01000 completed fold 475
+lowIAT_folds_00000_01000 completed fold 500
+lowIAT_folds_00000_01000 completed fold 525
+lowIAT_folds_00000_01000 completed fold 550
+lowIAT_folds_00000_01000 completed fold 575
+lowIAT_folds_00000_01000 completed fold 600
+lowIAT_folds_00000_01000 completed fold 625
+lowIAT_folds_00000_01000 completed fold 650
+lowIAT 0 1000 seconds 2640.7 corr cache max error 1.85099652966203e-09
+/Users/yiling/Documents/Codex/HBN_Cdx/Scripts/compare_classic_haufe_permutation.py:103: RuntimeWarning: invalid value encountered in matmul
+  gram=F@F.T
+lowIAT_folds_01000_02000 completed fold 0
+lowIAT_folds_01000_02000 completed fold 25
+lowIAT_folds_01000_02000 completed fold 50
+lowIAT_folds_01000_02000 completed fold 75
+lowIAT_folds_01000_02000 completed fold 100
+lowIAT_folds_01000_02000 completed fold 125
+lowIAT_folds_01000_02000 completed fold 150
+lowIAT_folds_01000_02000 completed fold 175
+lowIAT_folds_01000_02000 completed fold 200
+lowIAT_folds_01000_02000 completed fold 225
+lowIAT_folds_01000_02000 completed fold 250
+lowIAT_folds_01000_02000 completed fold 275
+lowIAT_folds_01000_02000 completed fold 300
+lowIAT_folds_01000_02000 completed fold 325
+lowIAT_folds_01000_02000 completed fold 350
+lowIAT_folds_01000_02000 completed fold 375
+lowIAT_folds_01000_02000 completed fold 400
+lowIAT_folds_01000_02000 completed fold 425
+lowIAT_folds_01000_02000 completed fold 450
+lowIAT_folds_01000_02000 completed fold 475
+lowIAT_folds_01000_02000 completed fold 500
+lowIAT_folds_01000_02000 completed fold 525
+lowIAT_folds_01000_02000 completed fold 550
+lowIAT_folds_01000_02000 completed fold 575
+lowIAT_folds_01000_02000 completed fold 600
+lowIAT_folds_01000_02000 completed fold 625
+lowIAT_folds_01000_02000 completed fold 650
+lowIAT 1000 2000 seconds 2558.0 corr cache max error 1.8125961842585525e-09
+lowIAT_folds_02000_03000 completed fold 0
+lowIAT_folds_02000_03000 completed fold 25
+lowIAT_folds_02000_03000 completed fold 50
+lowIAT_folds_02000_03000 completed fold 75
+lowIAT_folds_02000_03000 completed fold 100
+lowIAT_folds_02000_03000 completed fold 125
+lowIAT_folds_02000_03000 completed fold 150
+lowIAT_folds_02000_03000 completed fold 175
+lowIAT_folds_02000_03000 completed fold 200
+lowIAT_folds_02000_03000 completed fold 225
+lowIAT_folds_02000_03000 completed fold 250
+lowIAT_folds_02000_03000 completed fold 275
+lowIAT_folds_02000_03000 completed fold 300
+lowIAT_folds_02000_03000 completed fold 325
+lowIAT_folds_02000_03000 completed fold 350
+lowIAT_folds_02000_03000 completed fold 375
+lowIAT_folds_02000_03000 completed fold 400
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+W20261023 20:23:51.833678 10823487 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+W20261023 20:23:51.835220 10823487 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+W20261023 20:23:51.835390 10823487 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+W20261023 20:23:51.835537 10823487 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.sse4_2'. Detail: [errno 1] Operation not permitted
+W20261023 20:23:51.835690 10823487 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx1_0'. Detail: [errno 1] Operation not permitted
+W20261023 20:23:51.835832 10823487 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx2_0'. Detail: [errno 1] Operation not permitted
+W20261023 20:23:51.835984 10823487 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.bmi1'. Detail: [errno 1] Operation not permitted
+W20261023 20:23:51.836115 10823487 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.bmi2'. Detail: [errno 1] Operation not permitted
+W20261023 20:23:51.836244 10823487 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512f'. Detail: [errno 1] Operation not permitted
+W20261023 20:23:51.836369 10823487 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512cd'. Detail: [errno 1] Operation not permitted
+W20261023 20:23:51.836514 10823487 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512dq'. Detail: [errno 1] Operation not permitted
+W20261023 20:23:51.836663 10823487 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512bw'. Detail: [errno 1] Operation not permitted
+W20261023 20:23:51.836809 10823487 cpu_info.cc:239] IOError: sysctlbyname failed for 'hw.optional.avx512vl'. Detail: [errno 1] Operation not permitted
+PID 82419 permutations 10000 batch 1000
+highIAT n= 461 input ready 0.5 s
+  group       mapping network_block    value  p_two_sided    q_fdr  n_permutations  original_corr_p  original_corr_q
+highIAT   correlation       DAN-FPN 0.013506     0.020798 0.575942           10000         0.020798         0.575942
+highIAT   correlation       VAN-DMN 0.009389     0.047695 0.575942           10000         0.047695         0.575942
+highIAT classic_slope       DAN-FPN 0.002838     0.014999 0.539946           10000         0.020798         0.575942
+highIAT classic_slope       DAN-DMN 0.001906     0.047895 0.574743           10000         0.051395         0.575942
+highIAT classic_slope       VAN-DMN 0.001971     0.045895 0.574743           10000         0.047695         0.575942
+lowIAT n= 653 input ready 0.5 s
+/Users/yiling/Documents/Codex/HBN_Cdx/Scripts/compare_classic_haufe_permutation.py:103: RuntimeWarning: invalid value encountered in matmul
+  gram=F@F.T
+lowIAT_folds_02000_03000 completed fold 425
+lowIAT_folds_02000_03000 completed fold 450
+lowIAT_folds_02000_03000 completed fold 475
+lowIAT_folds_02000_03000 completed fold 500
+lowIAT_folds_02000_03000 completed fold 525
+lowIAT_folds_02000_03000 completed fold 550
+lowIAT_folds_02000_03000 completed fold 575
+lowIAT_folds_02000_03000 completed fold 600
+lowIAT_folds_02000_03000 completed fold 625
+lowIAT_folds_02000_03000 completed fold 650
+lowIAT 2000 3000 seconds 842.0 corr cache max error 3.7193673418922657e-09
+lowIAT_folds_03000_04000 completed fold 0
+lowIAT_folds_03000_04000 completed fold 25
+lowIAT_folds_03000_04000 completed fold 50
+lowIAT_folds_03000_04000 completed fold 75
+lowIAT_folds_03000_04000 completed fold 100
+lowIAT_folds_03000_04000 completed fold 125
+lowIAT_folds_03000_04000 completed fold 150
+lowIAT_folds_03000_04000 completed fold 175
+lowIAT_folds_03000_04000 completed fold 200
+lowIAT_folds_03000_04000 completed fold 225
+lowIAT_folds_03000_04000 completed fold 250
+lowIAT_folds_03000_04000 completed fold 275
+lowIAT_folds_03000_04000 completed fold 300
+lowIAT_folds_03000_04000 completed fold 325
+lowIAT_folds_03000_04000 completed fold 350
+lowIAT_folds_03000_04000 completed fold 375
+lowIAT_folds_03000_04000 completed fold 400
+lowIAT_folds_03000_04000 completed fold 425
+lowIAT_folds_03000_04000 completed fold 450
+lowIAT_folds_03000_04000 completed fold 475
+lowIAT_folds_03000_04000 completed fold 500
+lowIAT_folds_03000_04000 completed fold 525
+lowIAT_folds_03000_04000 completed fold 550
+lowIAT_folds_03000_04000 completed fold 575
+lowIAT_folds_03000_04000 completed fold 600
+lowIAT_folds_03000_04000 completed fold 625
+lowIAT_folds_03000_04000 completed fold 650
+lowIAT 3000 4000 seconds 1854.7 corr cache max error 1.8570124327155213e-09
+lowIAT_folds_04000_05000 completed fold 0
+lowIAT_folds_04000_05000 completed fold 25
+lowIAT_folds_04000_05000 completed fold 50
+lowIAT_folds_04000_05000 completed fold 75
+lowIAT_folds_04000_05000 completed fold 100
+lowIAT_folds_04000_05000 completed fold 125
+lowIAT_folds_04000_05000 completed fold 150
+lowIAT_folds_04000_05000 completed fold 175
+lowIAT_folds_04000_05000 completed fold 200
+lowIAT_folds_04000_05000 completed fold 225
+lowIAT_folds_04000_05000 completed fold 250
+lowIAT_folds_04000_05000 completed fold 275
+lowIAT_folds_04000_05000 completed fold 300
+lowIAT_folds_04000_05000 completed fold 325
+lowIAT_folds_04000_05000 completed fold 350
+lowIAT_folds_04000_05000 completed fold 375
+lowIAT_folds_04000_05000 completed fold 400
+lowIAT_folds_04000_05000 completed fold 425
+lowIAT_folds_04000_05000 completed fold 450
+lowIAT_folds_04000_05000 completed fold 475
+lowIAT_folds_04000_05000 completed fold 500
+lowIAT_folds_04000_05000 completed fold 525
+lowIAT_folds_04000_05000 completed fold 550
+lowIAT_folds_04000_05000 completed fold 575
+lowIAT_folds_04000_05000 completed fold 600
+lowIAT_folds_04000_05000 completed fold 625
+lowIAT_folds_04000_05000 completed fold 650
+lowIAT 4000 5000 seconds 3036.9 corr cache max error 1.8417660868630392e-09
+lowIAT_folds_05000_06000 completed fold 0
+lowIAT_folds_05000_06000 completed fold 25
+lowIAT_folds_05000_06000 completed fold 50
+lowIAT_folds_05000_06000 completed fold 75
+lowIAT_folds_05000_06000 completed fold 100
+lowIAT_folds_05000_06000 completed fold 125
+lowIAT_folds_05000_06000 completed fold 150
+lowIAT_folds_05000_06000 completed fold 175
+lowIAT_folds_05000_06000 completed fold 200
+lowIAT_folds_05000_06000 completed fold 225
+lowIAT_folds_05000_06000 completed fold 250
+lowIAT_folds_05000_06000 completed fold 275
+lowIAT_folds_05000_06000 completed fold 300
+lowIAT_folds_05000_06000 completed fold 325
+lowIAT_folds_05000_06000 completed fold 350
+lowIAT_folds_05000_06000 completed fold 375
+lowIAT_folds_05000_06000 completed fold 400
+lowIAT_folds_05000_06000 completed fold 425
+lowIAT_folds_05000_06000 completed fold 450
+lowIAT_folds_05000_06000 completed fold 475
+lowIAT_folds_05000_06000 completed fold 500
+lowIAT_folds_05000_06000 completed fold 525
+lowIAT_folds_05000_06000 completed fold 550
+lowIAT_folds_05000_06000 completed fold 575
+lowIAT_folds_05000_06000 completed fold 600
+lowIAT_folds_05000_06000 completed fold 625
+lowIAT_folds_05000_06000 completed fold 650
+lowIAT 5000 6000 seconds 3731.5 corr cache max error 3.040429880085682e-09
+lowIAT_folds_06000_07000 completed fold 0
+lowIAT_folds_06000_07000 completed fold 25
+lowIAT_folds_06000_07000 completed fold 50
+lowIAT_folds_06000_07000 completed fold 75
+lowIAT_folds_06000_07000 completed fold 100
+lowIAT_folds_06000_07000 completed fold 125
+lowIAT_folds_06000_07000 completed fold 150
+lowIAT_folds_06000_07000 completed fold 175
+lowIAT_folds_06000_07000 completed fold 200
+lowIAT_folds_06000_07000 completed fold 225
+lowIAT_folds_06000_07000 completed fold 250
+lowIAT_folds_06000_07000 completed fold 275
+lowIAT_folds_06000_07000 completed fold 300
+lowIAT_folds_06000_07000 completed fold 325
+lowIAT_folds_06000_07000 completed fold 350
+lowIAT_folds_06000_07000 completed fold 375
+lowIAT_folds_06000_07000 completed fold 400
+lowIAT_folds_06000_07000 completed fold 425
+lowIAT_folds_06000_07000 completed fold 450
+lowIAT_folds_06000_07000 completed fold 475
+lowIAT_folds_06000_07000 completed fold 500
+lowIAT_folds_06000_07000 completed fold 525
+lowIAT_folds_06000_07000 completed fold 550
+lowIAT_folds_06000_07000 completed fold 575
+lowIAT_folds_06000_07000 completed fold 600
+lowIAT_folds_06000_07000 completed fold 625
+lowIAT_folds_06000_07000 completed fold 650
+lowIAT 6000 7000 seconds 3161.0 corr cache max error 3.71357186668142e-09
+lowIAT_folds_07000_08000 completed fold 0
+lowIAT_folds_07000_08000 completed fold 25
+lowIAT_folds_07000_08000 completed fold 50
+lowIAT_folds_07000_08000 completed fold 75
+lowIAT_folds_07000_08000 completed fold 100
+lowIAT_folds_07000_08000 completed fold 125
+lowIAT_folds_07000_08000 completed fold 150
+lowIAT_folds_07000_08000 completed fold 175
+lowIAT_folds_07000_08000 completed fold 200
+lowIAT_folds_07000_08000 completed fold 225
+lowIAT_folds_07000_08000 completed fold 250
+lowIAT_folds_07000_08000 completed fold 275
+lowIAT_folds_07000_08000 completed fold 300
+lowIAT_folds_07000_08000 completed fold 325
+lowIAT_folds_07000_08000 completed fold 350
+lowIAT_folds_07000_08000 completed fold 375
+lowIAT_folds_07000_08000 completed fold 400
+lowIAT_folds_07000_08000 completed fold 425
+lowIAT_folds_07000_08000 completed fold 450
+lowIAT_folds_07000_08000 completed fold 475
+lowIAT_folds_07000_08000 completed fold 500
+lowIAT_folds_07000_08000 completed fold 525
+lowIAT_folds_07000_08000 completed fold 550
+lowIAT_folds_07000_08000 completed fold 575
+lowIAT_folds_07000_08000 completed fold 600
+lowIAT_folds_07000_08000 completed fold 625
+lowIAT_folds_07000_08000 completed fold 650
+lowIAT 7000 8000 seconds 3054.6 corr cache max error 2.61393123812681e-09
+lowIAT_folds_08000_09000 completed fold 0
+lowIAT_folds_08000_09000 completed fold 25
+lowIAT_folds_08000_09000 completed fold 50
+lowIAT_folds_08000_09000 completed fold 75
+lowIAT_folds_08000_09000 completed fold 100
+lowIAT_folds_08000_09000 completed fold 125
+lowIAT_folds_08000_09000 completed fold 150
+lowIAT_folds_08000_09000 completed fold 175
+lowIAT_folds_08000_09000 completed fold 200
+lowIAT_folds_08000_09000 completed fold 225
+lowIAT_folds_08000_09000 completed fold 250
+lowIAT_folds_08000_09000 completed fold 275
+lowIAT_folds_08000_09000 completed fold 300
+lowIAT_folds_08000_09000 completed fold 325
+lowIAT_folds_08000_09000 completed fold 350
+lowIAT_folds_08000_09000 completed fold 375
+lowIAT_folds_08000_09000 completed fold 400
+lowIAT_folds_08000_09000 completed fold 425
+lowIAT_folds_08000_09000 completed fold 450
+lowIAT_folds_08000_09000 completed fold 475
+lowIAT_folds_08000_09000 completed fold 500
+lowIAT_folds_08000_09000 completed fold 525
+lowIAT_folds_08000_09000 completed fold 550
+lowIAT_folds_08000_09000 completed fold 575
+lowIAT_folds_08000_09000 completed fold 600
+lowIAT_folds_08000_09000 completed fold 625
+lowIAT_folds_08000_09000 completed fold 650
+lowIAT 8000 9000 seconds 3107.8 corr cache max error 1.857412577910278e-09
+lowIAT_folds_09000_10000 completed fold 0
+lowIAT_folds_09000_10000 completed fold 25
+lowIAT_folds_09000_10000 completed fold 50
+lowIAT_folds_09000_10000 completed fold 75
+lowIAT_folds_09000_10000 completed fold 100
+lowIAT_folds_09000_10000 completed fold 125
+lowIAT_folds_09000_10000 completed fold 150
+lowIAT_folds_09000_10000 completed fold 175
+lowIAT_folds_09000_10000 completed fold 200
+lowIAT_folds_09000_10000 completed fold 225
+lowIAT_folds_09000_10000 completed fold 250
+lowIAT_folds_09000_10000 completed fold 275
+lowIAT_folds_09000_10000 completed fold 300
+lowIAT_folds_09000_10000 completed fold 325
+lowIAT_folds_09000_10000 completed fold 350
+lowIAT_folds_09000_10000 completed fold 375
+lowIAT_folds_09000_10000 completed fold 400
+lowIAT_folds_09000_10000 completed fold 425
+lowIAT_folds_09000_10000 completed fold 450
+lowIAT_folds_09000_10000 completed fold 475
+lowIAT_folds_09000_10000 completed fold 500
+lowIAT_folds_09000_10000 completed fold 525
+lowIAT_folds_09000_10000 completed fold 550
+lowIAT_folds_09000_10000 completed fold 575
+lowIAT_folds_09000_10000 completed fold 600
+lowIAT_folds_09000_10000 completed fold 625
+lowIAT_folds_09000_10000 completed fold 650
+lowIAT 9000 10000 seconds 3002.4 corr cache max error 1.8595976286617244e-09
+ group     mapping network_block     value  p_two_sided  q_fdr  n_permutations  original_corr_p  original_corr_q
+lowIAT correlation       Lim-FPN -0.009419     0.039496    1.0           10000         0.039496              1.0
