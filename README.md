@@ -17,5 +17,5 @@ IAT-CPM/
   - `HBN_func_Schaefer200/`: Time series extracted from preprocessed MRI data using the Schaefer 200-parcel atlas.
   - `量表数据汇总_with_MeanEnorm.csv`: Questionnaire data corresponding to the MRI data.
 - `2_Computations/`: Scripts for computational analyses and intermediate data.
-- `3_Visualizations/`: Draft figures, editable source files (draw.io and Adobe Illustrator), and exported images (PNG and TIFF).
+- `3_Visualizations/`: Directory reserved for visualization scripts (currently empty).
 
