@@ -1,0 +1,3 @@
+group,n_valid_folds,selected_edges_mean,selected_edges_median,selected_edges_q1,selected_edges_q3,selected_edges_min,selected_edges_max,n_edges_freq_ge_0_80
+highIAT,461,318.21908893709326,319.0,307.0,327.0,210,476,286
+lowIAT,653,75.40275650842267,75.0,74.0,77.0,67,89,71

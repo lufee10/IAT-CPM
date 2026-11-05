@@ -1,0 +1,11 @@
+group,metric,observed,reference,passed
+highIAT,selected_edges_mean,318.21908893709326,318.2,True
+highIAT,selected_edges_median,319.0,319.0,True
+highIAT,selected_edges_min,210.0,210.0,True
+highIAT,selected_edges_max,476.0,476.0,True
+highIAT,n_edges_freq_ge_0_80,286.0,286.0,True
+lowIAT,selected_edges_mean,75.40275650842267,75.4,True
+lowIAT,selected_edges_median,75.0,75.0,True
+lowIAT,selected_edges_min,67.0,67.0,True
+lowIAT,selected_edges_max,89.0,89.0,True
+lowIAT,n_edges_freq_ge_0_80,71.0,71.0,True

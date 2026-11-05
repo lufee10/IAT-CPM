@@ -1,0 +1,3 @@
+source_group,target_group,source_stable_n,target_never_selected_n,target_ever_selected_n,target_max_selection_count,target_valid_folds,target_frequency_max
+highIAT,lowIAT,286,285,1,1,653,0.001531393568147
+lowIAT,highIAT,71,71,0,0,461,0.0
