@@ -1,0 +1,1 @@
+本次严格使用任务书 GLM.fit(cov_type="HC3")。在 statsmodels 0.14.0 中，GLMResults 无 cov_HC3 属性，statsmodels.base.covtype.get_robustcov_results 因此回退到 cov_white_simple(use_correction=False)，即未作杠杆HC3修正的score-sandwich。Sex基准数值对应此实现；没有擅自改成另一套协方差。五个OLS结局使用真正的OLS HC3。写论文时应区分“请求HC3”与GLM实际实现，不应笼统称六项均为杠杆修正HC3。

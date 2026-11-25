@@ -1,0 +1,15 @@
+{
+  "inputs": [
+    {
+      "path": "C:\\Users\\ai412\\Desktop\\\u8bba\u6587\u63d2\u56fe\\Figure_official_v1125\\2_Computations\\CPM_GMM\\Schaefer200_HO14_PC50_scaled_GMMfull_labels.csv",
+      "sha256": "7b005b09ff37eea604d4825cd6a146364446fc0a06a18cccbe507b419c9311fb"
+    },
+    {
+      "path": "C:\\Users\\ai412\\Desktop\\\u8bba\u6587\u63d2\u56fe\\Figure_official_v1125\\3_Visualizations\\Visualization_Figure3\\validation\\da2be70375fc39c3\\matching_membership.csv",
+      "sha256": "91378403dcd09a2892545c682e3a235f90049ac07f77c96109bac89ba5f9e911"
+    }
+  ],
+  "matching_ID_check": "all five calipers passed",
+  "excluded_rows": 0,
+  "SMD_denominator": "sqrt((sample_var_low + sample_var_high)/2), subset-specific"
+}
